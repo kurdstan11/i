@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "13980703"))
+API_HASH = getenv("API_HASH", "8739dceb2d5ee894b67b106efc50d52c")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5649188759:AAFCVbZmDJ7aOqaQzAWTgh3fL8bBYDwnqHc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Musek bot")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "-1001854456127").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,16 +65,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "zzzz7lZ"
+    "CHANNEL_SUDO", "Male_Muslmanan"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
     "YAFA_NAME", "˛ َِ𝙏َِ𝘰َِ𝘽َِ𝘺 َِ𝙏َِ𝘦َِ𝘼َِ𝘮"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/zzzz7lz"
+   " YAFA_CHANNEL", "https://t.me/Male_Muslmanan"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/zzzz7lz"
+    "SUPPORT_CHANNEL", "https://t.me/Male_Muslmanan"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
@@ -100,7 +100,7 @@ AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "https://t.me/Dozax1")
 
 # Time sleep duration For Youtube Downloader
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
@@ -144,7 +144,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "AgAoSmWehX8VlMT2XH3NOoHzb0sJH85I0euNHCiSpxHz38-RRrCRYdGXfXR6qB_i2YtfqJyNk4lYd-8OVTPrJZH4ruY3cyZ5cWVLIuuoymIjAG6ealgfvxu7GX3p6AyYhG4fEFWUUQDDzTakU-20DMiXYe35Dn6BFBuxO9dzbkZNMQGxKNlIu7eEuONH5SYJ1iWty8Bd4ebD3oUji0e5vQBa4wuWNn5geRNM0ZhzY4SRzBDMRCBQvLWntygg13rnJI8XgRo9TW-6EnZR9j8FBpGdQEYdA7FeZjLK32gPOaxf6ZWH6wHho0e63E8xFH4VuhdTEi0h9eIxsZ-Tid9OKKGQAAAAAVm0DL4A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -174,7 +174,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/1b682c20454671cf80c95.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/5b58f22d5ea9c4d1432a0.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
